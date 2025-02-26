@@ -11,7 +11,7 @@ const workbook = xlsx.readFile("data.xlsx");
 const sheetName = workbook.SheetNames[0];
 
 
-console.log(sheetName,"sheetName")
+// console.log(sheetName,"sheetName")
 
 // Convert the sheet data to JSON
 const jsonData = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);
